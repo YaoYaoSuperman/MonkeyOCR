@@ -153,9 +153,13 @@ python demo/demo_gradio.py
    docker compose up monkeyocr-api
    ```
 
-## Windows Support 
-    
-For deployment on Windows, please use WSL and Docker Desktop. See the [Windows Support](docs/windows_support.md) Guide for details.
+## macOS/Windows Support
+
+**Windows Users**  
+Deploy using **WSL** and **Docker Desktop**. See the [Windows Guide](docs/windows_support.md) for details.
+
+**macOS Users**  
+Refer to the [macOS Guide](docs/mac_support.md) for deployment instructions.
 
 ## Quantization
 
