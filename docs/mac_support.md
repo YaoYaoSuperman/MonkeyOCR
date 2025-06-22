@@ -1,11 +1,10 @@
-🚀 Running MonkeyOCR with Transformer as the backend on Mac
+### 🚀 Running MonkeyOCR with Transformer as the backend on Mac
 
 
 
 This guide will walk you through running MonkeyOCR with Transformer as the backend on your Mac device. Let's get started! 🌟
 
-
-1\. 🛠️ Preparation
+#### 1\. 🛠️ Preparation
 
 
 
@@ -29,7 +28,7 @@ Also, make sure you have Anaconda or Miniconda installed. If not, you can instal
 brew install miniconda
 ```
 
-2\. 📦 Create and Configure the Virtual Environment
+#### 2\. 📦 Create and Configure the Virtual Environment
 
 
 
@@ -58,7 +57,7 @@ conda create -n MonkeyOCR python=3.10
 conda activate MonkeyOCR
 ```
 
-3\. 📥 Install Dependencies
+#### 3\. 📥 Install Dependencies
 
 
 
@@ -84,7 +83,7 @@ pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
 pip install -e .
 ```
 
-4\.🚀 Run MonkeyOCR
+#### 4\.🚀 Run MonkeyOCR
 
 
 
@@ -97,7 +96,7 @@ After completing the above steps, run the following command to perform OCR recog
 python parse.py ./demo/demo.png
 ```
 
-📊 Performance Reference
+#### 📊 Performance Reference
 
 
 
